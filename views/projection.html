@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" href="css/semantic.css"> -->
+    <link rel="stylesheet" href="css/spacing.css">
+
+    <title>Projection</title>
+</head>
+<body style="background-color: black;">
+
+    <div class="ui container"; style="background-color: Black; height: calc(100vh - 100px);">
+        <div class="ui celled grid" style="height: calc(100vh - 100px);">
+            <div class="fourteen wide column" style="height: calc(100vh - 100px);" >
+                <div id="canvasWrapper1" style="position: absolute; top: 0px; left: 0px; display:none">
+                    <canvas id="c1" style="position: relative; z-index: 1; outline: white 1px solid"></canvas>
+                </div>
+                <div id="canvasWrapper2" style="position: absolute; top: 0px; left: 500px; display:none">
+                    <canvas id="c2" style="position: relative; z-index: 1; outline: white 1px solid"></canvas>
+                </div>
+                <div id="canvasWrapper3" style="position: absolute; top: 500px; left: 0px; display:none">
+                    <canvas id="c3" style="position: relative; z-index: 1; outline: white 1px solid"></canvas>
+                </div>
+                <div id="canvasWrapper4" style="position: absolute; top: 500px; left: 0px; display:none">
+                    <canvas id="c4" style="position: relative; z-index: 1; outline: white 1px solid"></canvas>
+                </div>
+                <div id="canvasWrapper5" style="position: absolute; top: 500px; left: 0px; display:none">
+                    <canvas id="c5" style="position: relative; z-index: 1; outline: white 1px solid"></canvas>
+                </div>
+                <div id="canvasWrapperMaster" style="position: absolute; top: 0px; left: 0px; ">
+                    <canvas id="cMaster" style="position: relative; z-index: 9999; outline: white 1px solid"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <svg width="250" height="250" style="position: absolute; top:0px; left: 0px;  z-index: 9999;" id="canvasIndicator">
+      <rect width="250" height="250" style="fill:none; stroke-width:3; stroke:rgb(255,255,255)" /> -->
+
+      <!-- 70% of the screen -->
+    <!-- <svg width="280" height="224" style="position: absolute; top:0px; left: 0px;  z-index: 9999;" id="canvasIndicator">
+    <rect width="280" height="224" style="fill:none; stroke-width:3; stroke:rgb(255,255,255)" />
+    </svg> -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/semantic.js"></script>
+    <script src="js/fabric.min.js"></script>
+    <script src="js/shapes.fabric.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/scriptProjection.js"></script>
+</body>
+</html>
