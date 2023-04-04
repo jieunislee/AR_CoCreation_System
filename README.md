@@ -25,7 +25,7 @@ Implementation:
 - Two web-based applications are implemented with JavaScript.
 - A single Express server operates a web server and is deployed on the public web browser.
 - The drawing data are sent to the projector application via socket.io stream through an express server.
-- 
+
 ## Requirements
 
 - Node.js
