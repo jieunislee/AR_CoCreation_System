@@ -1,6 +1,6 @@
 # AR Co-Creation System
 
-![Header](https://user-images.githubusercontent.com/98379268/229661393-ac8fe45d-37ec-445e-b6c0-0fee008a3410.png)
+![Header]<img width="1191" alt="Screen Shot 2021-10-13 at 5 50 08 PM" src="https://user-images.githubusercontent.com/98379268/229663119-55b487a5-a5f0-48d7-9cec-addbe1ab153b.png">
 
 Visit: https://www.jieunlee.org/arcocreation
 
