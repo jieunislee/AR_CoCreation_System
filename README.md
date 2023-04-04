@@ -1,6 +1,6 @@
 # AR Co-Creation System
 
-![Header]<img width="1191" alt="Screen Shot 2021-10-13 at 5 50 08 PM" src="https://user-images.githubusercontent.com/98379268/229663119-55b487a5-a5f0-48d7-9cec-addbe1ab153b.png">
+<img width="1191" alt="Screen Shot 2021-10-13 at 5 50 08 PM" src="https://user-images.githubusercontent.com/98379268/229663119-55b487a5-a5f0-48d7-9cec-addbe1ab153b.png">
 
 Visit: https://www.jieunlee.org/arcocreation
 
@@ -16,7 +16,7 @@ Visit: https://www.jieunlee.org/arcocreation
 2. Provide building blocks for large vehicle space to easily and rapidly construct, assemble, and iterate.
 3. Facilitate AR experience with multi-user in real-time via AR sketches to be located freely in physical space.
 
-##System Detail & Implementation
+## System Detail & Implementation
 
 Web-Based Projected AR Sketch Tool Kit
 
@@ -29,11 +29,7 @@ Implementation:
 - Two web-based applications are implemented with JavaScript.
 - A single Express server operates a web server and is deployed on the public web browser.
 - The drawing data are sent to the projector application via socket.io stream through an express server.
-
-## Usage Scenario
-
-![Screen Shot 2022-01-13 at 11 49 23 PM](https://user-images.githubusercontent.com/98379268/229662818-c6e032a0-1d52-4698-af50-b1bfcd5d1862.png)
-
+- 
 ## Requirements
 
 - Node.js
