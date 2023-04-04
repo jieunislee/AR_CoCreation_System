@@ -2,7 +2,7 @@
 
 <img width="1191" alt="Screen Shot 2021-10-13 at 5 50 08 PM" src="https://user-images.githubusercontent.com/98379268/229663119-55b487a5-a5f0-48d7-9cec-addbe1ab153b.png">
 
-Visit: https://www.jieunlee.org/arcocreation
+Visit: https://www.jieunlee.org/arcocreation for more information.
 
 ## Summary
 
@@ -12,13 +12,9 @@ Visit: https://www.jieunlee.org/arcocreation
 
 ## Features
 
-1. Support both driver and designer perspective in low fidelity car mock-up.
-2. Provide building blocks for large vehicle space to easily and rapidly construct, assemble, and iterate.
-3. Facilitate AR experience with multi-user in real-time via AR sketches to be located freely in physical space.
+- Facilitate AR experience with multi-user in real-time via AR sketches to be located freely in physical space.
 
 ## System Detail & Implementation
-
-Web-Based Projected AR Sketch Tool Kit
 
 System:
 - Interface sketch into AR  
